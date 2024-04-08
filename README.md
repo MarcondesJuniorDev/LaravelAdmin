@@ -20,12 +20,12 @@ O framework laravel ja vem com pacote de autenticação Jetstream e tradução p
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/MarcondesJuniorDev/L11PMN
+    git clone https://github.com/MarcondesJuniorDev/LaravelAdmin
     ```
 
 2. Acesse o diretório do projeto:
     ```bash
-    cd L11PMN/
+    cd LaravelAdmin/
     ```
 
 ## Configuração do Ambiente
@@ -58,7 +58,7 @@ Certifique-se de ter o Docker instalado na sua máquina.
     ```
 3. Em caso de erro ao executar as migrações, pode ser necessário acessar o container do PHP e executar o comando manualmente. Para fazer isso, utilize o seguinte comando:
     ```bash
-    docker exec -it l11pmn-app-1 bash
+    docker exec -it laraveladmin-app-1 bash
     ```
    Dentro do container, execute:
     ```bash
